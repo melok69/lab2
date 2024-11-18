@@ -28,7 +28,7 @@ public:
     double getRate() const { return rate; }
 
     ~Job() {
-        std::cout << "Deleting job information.\n";
+        std::cout << "job information.\n";
     }
 };
 
@@ -48,7 +48,7 @@ public:
     int getHours() const { return hours; }
 
     ~PerformedJob() {
-        std::cout << "Deleting performed job information.\n";
+        std::cout << "performed job information.\n";
     }
 };
 
@@ -88,7 +88,7 @@ public:
     std::string getName() const { return name; }
 
     ~Employee() {
-        std::cout << "Deleting employee information.\n";
+        std::cout << "employee information.\n";
     }
 };
 
@@ -152,7 +152,7 @@ public:
     }
 
     ~PayrollSystem() {
-        std::cout << "Deleting payroll system.\n";
+        std::cout << "payroll system.\n";
     }
 };
 
